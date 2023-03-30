@@ -21,4 +21,70 @@ img {
 
 ul {
   list-style: none;
+}
+
+body {
+  font-family: "Noto Sans";
+}
+
+.container {
+  margin: auto;
+}
+.container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 2rem 1rem;
+}
+.container .main-section {
+  border-top: 2px solid #EFEFEF;
+  padding: 1.75rem 1rem;
+}
+@media (min-width: 768px) {
+  .container .main-section {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.container .main-section .main-articles {
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .container .main-section .main-articles {
+    flex: 0 0 49%;
+  }
+}
+.container .main-section .main-articles img {
+  margin-bottom: 1rem;
+}
+.container .main-section .main-articles h2 {
+  margin-bottom: 1rem;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+.container .main-section .main-articles p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.container .main-section .main-articles .author-box {
+  display: flex;
+  align-content: center;
+}
+.container .main-section .main-articles .author-box img {
+  flex: 0 0 50px;
+  padding-right: 0.562rem;
+}
+.container .main-section .main-articles .author-box .text-box {
+  font-size: 0.875rem;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.container .main-section .main-articles .author-box .text-box p {
+  flex: 0 0 100%;
+  margin-bottom: 0.25rem;
+}
+.container .main-section .main-articles .author-box .text-box p.green {
+  color: #1A9959;
 }/*# sourceMappingURL=style.css.map */
