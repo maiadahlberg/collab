@@ -19,3 +19,54 @@ img{
 ul{
     list-style: none;
 }
+.footer{
+    background-color: #191919;
+    color: #EFEFEF;
+    padding: 1rem;
+    h3{
+        color: white;
+    }
+    p{
+        color: white;
+        padding: 1rem 1rem 1rem 0rem;
+    }
+    .box-wrapper{
+        max-width: 1440px;
+    }
+    @media (min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.footer-box{
+    margin: auto;
+    align-items: baseline;
+    padding: 1.5rem;
+    border-top: 1px solid #EFEFEF;
+    background-color: #191919;
+    @media (min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+    }
+    h2{
+        padding-bottom: 1rem;
+        color: #EFEFEF;
+        flex: 0 0 80%;
+    }
+    .info{
+        a{
+            color: #979797;
+        }
+        li{
+            padding-bottom: 1rem;
+            @media (min-width: 768px){
+                display: flex;
+                padding-right: 1rem;
+            }
+        }
+        @media (min-width: 768px){
+            display: flex;
+            justify-content: right
+        }
+    }
+}
