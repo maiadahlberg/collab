@@ -1,0 +1,24 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #191919;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: #1A9959;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */
