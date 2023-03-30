@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Noto Sans";
+}
+
 p {
   color: #191919;
   line-height: 1.2;
@@ -23,8 +27,61 @@ ul {
   list-style: none;
 }
 
-body {
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+.navbar .menu-main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem 1rem;
+  border: 2px solid #EFEFEF;
+  padding: 1rem;
+}
+.navbar .menu-main .navbar-logo {
+  margin-right: auto;
+  font-size: 2rem;
+}
+.navbar .menu-main .button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #1A9959;
+  margin-left: 1rem;
+  font-family: Noto Sans;
+  font-size: 1rem;
+  background-color: white;
+  color: #1A9959;
+}
+.navbar .menu-text {
+  padding: 1rem;
+  list-style: none;
+  flex: 0 0 100%;
+  border: 2px solid #EFEFEF;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+}
+.navbar .menu-text .menu-list {
+  padding-right: 1rem;
+  display: flex;
+  overflow-x: scroll;
+  display: flex;
+  align-items: center;
+}
+.navbar .menu-text .menu-list .menu-item {
+  flex: 1 0 auto;
+}
+.navbar .menu-text .menu-list .menu-bold {
+  font-weight: 700;
+  font-size: 20px;
+  color: #6C6C6C;
   font-family: "Noto Sans";
+  padding-right: 2rem;
+}
+.navbar .menu-text .menu-list .menu-link {
+  font-weight: 400;
+  font-size: 14px;
+  color: #6C6C6C;
+  font-family: "Noto Sans";
+  padding-right: 2rem;
 }
 
 .container {
